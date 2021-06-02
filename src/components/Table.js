@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from "react";
 import API from "../utils/API.js";
 
-function Table(props) {
-  const { products } = props;
-  const [sortedField, setSortedField] = React.useState(null);
+function Table() {
   const [randomUser, setRandomUser] = useState([]);
 
   useEffect(() => {
@@ -22,16 +20,8 @@ function Table(props) {
       <thead>
         <tr>
           <th scope="col">Photo</th>
-          <th scope="col">
-            <button type="button" onClick={() => setSortedField("first")}>
-              First
-            </button>
-          </th>
-          <th scope="col">
-            <button type="button" onClick={() => setSortedField("last")}>
-              Last
-            </button>
-          </th>
+          <th scope="col">First</th>
+          <th scope="col">Last</th>
           <th scope="col">Age</th>
           <th scope="col">Gender</th>
           <th scope="col">Location</th>
@@ -50,7 +40,7 @@ function Table(props) {
             <td>{result.name.first}</td>
             <td>{result.name.last}</td>
             <td>{result.dob.age}</td>
-            <td>{result.gender}</td>
+            <td>{result.name.last}</td>
             <td>{result.location.state}</td>
             <td>{result.email}</td>
             <td>{result.phone}</td>
