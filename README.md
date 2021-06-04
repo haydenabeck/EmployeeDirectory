@@ -1,23 +1,62 @@
 # EmployeeDirectory
 
-## Overview
+## Live Links:
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+https://github.com/haydenabeck/EmployeeDirectory
+https://fierce-bayou-61857.herokuapp.com/
 
-## User Story
+## Contributors
 
-- As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+@haydenabeck
 
-## Business Context
+## Description:
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+A small project designed to create a employee directory with React. I wanted to break up this application's UI into components, manage component state, and respond to user events. As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
 
-## Acceptance Criteria
+## Table of Contents
 
-Given a table of random users generated from the [Random User API](https://randomuser.me/), when the user loads the page, a table of employees should render.
+- [Installation](#installation)
+- [Technology Stack](#technology-stack)
+- [Usage](#usage)
+- [Screenshots](#screenshots)
+- [Live Links](#livelinks)
+- [Contact](#contact)
+
+## Installation:
+
+NPM I, NPM START Classic install procedure.
+
+## Technology Stack:
+
+React, Axios, Bootstrap,
+
+## Usage:
 
 The user should be able to:
 
-- Sort the table by at least one category
+- Sort the table by at least one category, in this case first name is the button to click to sort information
 
-- Filter the users by at least one property.
+- Filter the users by at least one property, in this case the age button sorts by people over 50.
+
+## Live Links:
+
+https://github.com/haydenabeck/EmployeeDirectory
+https://fierce-bayou-61857.herokuapp.com/
+
+## Screenshots:
+
+- Dashboard
+
+* <img src="./assets/employeedirectorydashboard.png" alt=""/>
+
+- Alphabetical Sort
+
+* <img src="./assets/alphabeticalemployeedirectory.png" alt=""/>
+
+- Age Filter
+
+* <img src="./assets/agefilteremployeedirectory.png" alt=""/>
+
+## Contact:
+
+- Hayden Beck - haydenabeck@gmail.com
